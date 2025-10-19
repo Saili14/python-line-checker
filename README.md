@@ -28,7 +28,7 @@ https://example.com
 
 
 **Terminal Output:**
-🔍 Starting Link Checker...
+Starting Link Checker...
 Checking (requests): https://vijaykariaofficial.blogspot.com/2025/05/leading-with-vision-and-values-story-of.html
 ❌ Link not found: https://vijaykariaofficial.blogspot.com/2025/05/leading-with-vision-and-values-story-of.html
 Checking (requests): https://telegra.ph/Vijay-P-Karia-The-Life-The-Legacy-The-Loop-08-07
@@ -58,16 +58,26 @@ https://example.com,❌ Link not found,No link detected
 
 1. Clone the repository:
 git clone https://github.com/your-username/python-link-checker.git
+
 cd python-link-checker
+
 Create a virtual environment 
+
 python -m venv .venv
+
 .\.venv\Scripts\activate   # Windows
 source .venv/bin/activate  # Linux/Mac
+
 Install dependencies:
+
 pip install -r requirements.txt
+
 If you don’t have requirements.txt, install manually:
+
 pip install requests beautifulsoup4 selenium pandas openpyxl colorama
+
 python link_checker.py
+
 View results in results.csv and terminal summary.
 
 **Technologies Used**
