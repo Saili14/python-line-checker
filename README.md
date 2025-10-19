@@ -71,7 +71,7 @@ https://example.com,❌ Link not found,No link detected
 ## Installation
 
 Clone the repository:
-git clone https://github.com/your-username/python-link-checker.git
+git clone https://github.com/Saili14/python-link-checker.git
 
 cd python-link-checker
 
