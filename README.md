@@ -22,27 +22,41 @@ Features
 **Sample Input (`input.csv`):**
 URL
 https://vijaykariaofficial.blogspot.com/2025/05/leading-with-vision-and-values-story-of.html
+
 https://telegra.ph/Vijay-P-Karia-The-Life-The-Legacy-The-Loop-08-07
+
 https://visionary-leader-in-power-and-energy.hashnode.dev/about-vijay-p-karia
+
 https://example.com
+
 
 
 **Terminal Output:**
 Starting Link Checker...
 Checking (requests): https://vijaykariaofficial.blogspot.com/2025/05/leading-with-vision-and-values-story-of.html
+
 ❌ Link not found: https://vijaykariaofficial.blogspot.com/2025/05/leading-with-vision-and-values-story-of.html
+
 Checking (requests): https://telegra.ph/Vijay-P-Karia-The-Life-The-Legacy-The-Loop-08-07
+
 ✅ Link found: https://telegra.ph/Vijay-P-Karia-The-Life-The-Legacy-The-Loop-08-07
+
 Checking (requests): https://visionary-leader-in-power-and-energy.hashnode.dev/about-vijay-p-karia
+
 Request failed: https://visionary-leader-in-power-and-energy.hashnode.dev/about-vijay-p-karia
+
 Checking (requests): https://example.com
+
 ❌ Link not found: https://example.com
 
 ✅ Done! Results saved to 'results.csv'.
 
 📊 Summary Report:
+
 ❌ Link not found: 2
+
 ✅ Link found: 1
+
 Request failed: 1
 
 Total URLs checked: 4
@@ -56,7 +70,7 @@ https://example.com,❌ Link not found,No link detected
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 git clone https://github.com/your-username/python-link-checker.git
 
 cd python-link-checker
