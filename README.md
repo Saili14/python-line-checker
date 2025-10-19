@@ -19,6 +19,3 @@ Features
 
 ---
 
-Demo
-
-**Sample Input (`input.csv`):**
